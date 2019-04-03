@@ -1,0 +1,375 @@
+/*nuancier
+bleu turquoise : #69D1E7;
+fond gris foncé :#2C2F37;
+fond gris clair :#56595F;
+fond gris très clair : #EFF0F0;
+écriture blanche :#FFFFFF;*/
+/*==== GENERAL ====*/
+body{
+
+}
+h2 {
+	font-size: 27px;
+	font-weight:  bold;
+	text-transform: uppercase;
+}
+h3 {
+	font-weight: bold;
+}
+p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*==== HEADER NAVBAR ====*/
+
+header {
+  height: 550px;
+  background: url('../images/background.jpg')  no-repeat;
+  color: #FFF;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border: 1px solid #535353;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: .8em;
+}
+
+
+.subtitle {
+  font-size: .9rem;
+  color: #CBCBCB;
+  font-weight: 100;
+  padding-bottom: 300px;
+
+}
+
+.navbar a {
+    color: #EFF0F0;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    background-color: #69D1E7;
+    color: black;
+}
+
+
+/* ==== HEADER TEXT====*/
+
+h1 {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 90px;
+	margin-top: 150px;
+}
+
+
+
+/* ==== INTRO ====*/
+
+
+.intro {
+	background-color:  #69D1E7;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+	left: 45%;
+    margin-top: -25px;
+	height: 40px;
+	color: black;
+	position: absolute;
+	text-transform:uppercase;
+
+}
+.container-intro {
+	background-color:  #69D1E7;
+}
+#textintro {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+	height: 800px;
+	color: white;
+
+}
+
+.container-intro article {
+    border: 1px solid white;
+	border-radius: 8px;
+    font-size: 40px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    width: 60%;
+}
+
+.undertext {
+    padding-top: 50px;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+}
+
+.work {
+    background-color: #56595F;
+    border: 1px solid #56595F;
+    border-radius: 8px;
+    color: white;
+    margin-right: 20px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact {
+    border: 1px solid #56595F;
+    border-radius: 8px;
+    color: #56595F;
+    margin-left: 20px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ==== BIO ====*/
+
+.biotitle {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+	background-color: white;
+	left: 45%;
+    margin-top: -25px;
+	height: 40px;
+	color: black;
+	margin-bottom: 60px;
+}
+.img-fluid {
+
+	position:relative;
+    border-radius: 10px;
+	align-self: center;
+    width: 1200px;
+	height:450px;
+	border-radius: 10px;
+	box-shadow: 15px 10px 0px  #EFF0F0;
+}
+#bio {
+	margin: 0 150px;
+	padding-bottom: 60px;
+
+}
+#bio p{
+	margin: 40px 60px;
+}
+
+/* ====  COMPETENCES ====*/
+#competences{
+
+	align-items: center;
+	margin: 25px  ;
+}
+
+#competences th, #competences td {
+    padding: 10px;
+}
+
+#competences table {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+#competences th {
+    text-transform: uppercase;
+    background-color:#56595F;
+    font-size: 0.8em;
+    text-align: left;
+    color: white;
+}
+
+#competences th.type-data {
+    background-color:#69D1E7;
+    text-align: center;
+    color: #000;
+}
+
+#competences td {
+    width: 25%;
+    border: 1px solid #ccc;
+}
+
+/* ==== WORK ====*/
+.titlework{
+	background-color:#EFF0F0;
+	width: 150px;
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+	left: 45%;
+	margin-top: -25px;
+	color: black;
+}
+
+.container-work{
+	background-color: #EFF0F0;
+	height: 780px;
+}
+
+.image-1, .image-2, .image-3 {
+	margin: 40px;
+    height: 200px;
+    border: solid 10px white;
+    border-radius: 3px;
+}
+.art1, .art2, .art3 {
+	padding: 0 45px;
+	text-align: center;
+	display: block;
+	width: 250px;
+}
+
+.grey-divider {
+ margin: 50px auto;
+  width: 50%;
+  height: 2px;
+  background-color: #56595F;
+  border: none;
+}
+
+
+.readmore {
+	color: white;
+	background-image:linear-gradient(#69D1E7, #56595F);
+	width: 15em;
+	height: 3em;
+	font-size: 17px;
+	font-style: bold;
+	text-transform: uppercase;
+	box-shadow: 3px 4px 0px #aaa;
+    margin-bottom: 70px;
+
+}
+/* ==== CONTACT ====*/
+footer {
+    background: #56595F;
+    height: 950px;
+   position: relative;
+  }
+  
+  .first-bloc {
+      height: 90px;
+      position: absolute;
+  
+  }
+  
+  footer h2 {
+      background-color:  #56595F;
+      width: 150px;
+      height: 80px;
+      padding-top: 10px;
+      text-align: center;
+      position: relative;
+      right: -460%;
+      top: -40px;
+      color: white;
+  
+  }
+  
+  
+  .partie-droite {
+      float: right;
+      width: 600px;
+      text-align: left;
+       padding-top: 3em;
+       padding-right: 10em;
+
+       color: white;
+       line-height: 1.4em;
+      font-size: 1.2em;
+  
+  }
+  
+  .partie-gauche {
+      float: left;
+      width: 700px;
+    padding-top: 110px;
+    padding-left: 130px;
+    border-right: 5px solid grey;
+    color: white;
+    line-height: 1.4em;
+   font-size: 1.2em;
+  }
+  
+  .form {
+  text-align: left;}
+  
+  input[type=text]
+   {
+      padding: 15px;
+      width: 80%;
+      margin-top: 8px;
+      margin-bottom: 20px;
+  }
+  .button1 {
+    background-image:linear-gradient(#69D1E7, #56595F);
+      width: 80px;
+      height: 60px;
+      color: black;
+      font-size: 1.2em;
+      border-radius: 10px;
+      margin-top:15px;
+  }
+  
+  .button2 {
+      background-image:linear-gradient(#69D1E7, #56595F);
+      width: 220px;;
+      height: 60px;
+      color: black;
+      font-size: 1.2em;
+      border-radius: 10px;
+  
+  }
+
+  ::placeholder {
+      color:#69D1E7;
+  }
+  
+  input:focus {
+      border: 2px solid #69D1E7;
+      background: grey;
+      ;
+  }
+  
+  input, textarea {
+      background: #2C2F37;
+      max-width: 500px;
+  }
+  
+
+.end {
+	background-color: black;
+    height: 130px;
+    text-align: -webkit-center;
+}
+
+.copyright {
+	color: white;
+    display: inline-block;
+	padding-top: 50px;
+}
